@@ -1,0 +1,130 @@
+.banner-header1 {
+  background-image: linear-gradient(45deg, rgb(255, 255, 255) 0.00%,rgba(195, 178, 194, 0.23) 49.00%,rgba(94, 157, 217, 0.23) 100.00%);
+}
+.banner-max-width {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner-container1 {
+  width: 100%;
+}
+.banner-column {
+  gap: 24px;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.banner-content {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.banner-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  transition: 0.3s;
+  align-items: flex-start;
+}
+
+.banner-button {
+  transition: 0.3s;
+  border-color: #e0274d;
+  text-decoration: none;
+  background-color: var(--dl-color-theme-primary1);
+}
+
+.banner-container2 {
+  flex: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: 35%;
+  justify-content: flex-start;
+}
+.banner-image1 {
+  left: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  position: absolute;
+  flex-grow: 1;
+  object-fit: cover;
+}
+.banner-fragment1 {
+  display: contents;
+}
+.banner-text1 {
+  display: inline-block;
+  font-family: "Rubik";
+}
+.banner-text2 {
+  font-size: 120px;
+}
+.banner-text4 {
+  font-size: 55px;
+}
+.banner-text5 {
+  color: #e0274d;
+  font-size: 55px;
+}
+.banner-text6 {
+  font-size: 55px;
+}
+.banner-fragment2 {
+  display: contents;
+}
+.banner-text8 {
+  display: inline-block;
+  font-size: 18px;
+}
+.banner-fragment3 {
+  display: contents;
+}
+.banner-text9 {
+  fill: #910A67;
+  color: rgb(145, 10, 103);
+  display: inline-block;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+}
+@media(max-width: 991px) {
+  .banner-container1 {
+    flex-direction: column;
+  }
+  .banner-container2 {
+    width: 100%;
+    padding-top: 56.25%;
+  }
+}
+@media(max-width: 767px) {
+  .banner-actions {
+    width: 100%;
+    justify-content: center;
+  }
+  .banner-image1 {
+    width: 100%;
+  }
+  .banner-text1 {
+    text-align: center;
+  }
+  .banner-text2 {
+    text-align: center;
+  }
+  .banner-text9 {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .banner-actions {
+    flex-direction: column;
+  }
+  .banner-button {
+    width: 100%;
+  }
+}

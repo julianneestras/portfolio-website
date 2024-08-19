@@ -1,0 +1,99 @@
+.features191-layout349 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.features191-max-width {
+  gap: var(--dl-space-space-fiveunits);
+  display: flex;
+  align-items: center;
+}
+.features191-image-container {
+  flex: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.features191-placeholder-image {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+}
+.features191-content1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features191-section-title {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features191-content2 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features191-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+}
+.features191-button {
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.features191-fragment1 {
+  display: contents;
+}
+.features191-text4 {
+  display: inline-block;
+}
+.features191-fragment2 {
+  display: contents;
+}
+.features191-text5 {
+  fill: #910a67;
+  color: rgb(145, 10, 103);
+  display: inline-block;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.features191-fragment3 {
+  display: contents;
+}
+.features191-text6 {
+  display: inline-block;
+  font-size: 18px;
+}
+.features191-fragment4 {
+  display: contents;
+}
+.features191-text7 {
+  display: inline-block;
+}
+@media(max-width: 991px) {
+  .features191-max-width {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .features191-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .features191-button {
+    width: 100%;
+  }
+}

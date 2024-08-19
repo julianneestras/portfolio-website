@@ -1,0 +1,98 @@
+.features19-layout349 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.features19-max-width {
+  gap: var(--dl-space-space-fiveunits);
+  display: flex;
+  align-items: center;
+}
+.features19-image-container {
+  flex: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.features19-placeholder-image {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+}
+.features19-content1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features19-section-title {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features19-content2 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features19-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+}
+.features19-button {
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.features19-fragment1 {
+  display: contents;
+}
+.features19-text4 {
+  fill: #910a67;
+  color: #910a67;
+  display: inline-block;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.features19-fragment2 {
+  display: contents;
+}
+.features19-text5 {
+  display: inline-block;
+}
+.features19-fragment3 {
+  display: contents;
+}
+.features19-text6 {
+  display: inline-block;
+  font-size: 18px;
+}
+.features19-fragment4 {
+  display: contents;
+}
+.features19-text7 {
+  display: inline-block;
+}
+@media(max-width: 991px) {
+  .features19-max-width {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .features19-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .features19-button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,99 @@
+.features202-layout349 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.features202-max-width {
+  gap: var(--dl-space-space-fiveunits);
+  display: flex;
+  align-items: center;
+}
+.features202-content1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features202-section-title {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features202-content2 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features202-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+}
+.features202-button {
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.features202-image-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.features202-placeholder-image {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.features202-fragment1 {
+  display: contents;
+}
+.features202-text4 {
+  display: inline-block;
+}
+.features202-fragment2 {
+  display: contents;
+}
+.features202-text5 {
+  display: inline-block;
+  font-size: 18px;
+}
+.features202-fragment3 {
+  display: contents;
+}
+.features202-text6 {
+  display: inline-block;
+}
+.features202-fragment4 {
+  display: contents;
+}
+.features202-text7 {
+  fill: #910a67;
+  color: #910a67;
+  display: inline-block;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+@media(max-width: 991px) {
+  .features202-max-width {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column-reverse;
+  }
+}
+@media(max-width: 479px) {
+  .features202-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .features202-button {
+    width: 100%;
+  }
+}
